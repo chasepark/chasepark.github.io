@@ -2,7 +2,33 @@
 layout: default
 title: My Site
 ---
-{% include navigation %}
+<div class="header">
+	<div class="logo">
+		<h2>CHASE <strong>PARK</strong></h2>
+	</div>
+	<div class="menubutton">
+	</div>
+	<div class="menu">
+		<ul>
+			<li id="default" class="active">
+				<a href="#homepage" class="active">Home</a>
+			</li>
+			<li>
+				<a href="#portfolio">Portfolio</a>
+			</li>
+			<li>
+				<a href="#blog">Blog</a>
+			</li>
+			<li>
+				<a href="#resume">Resume</a>
+			</li>
+			<li>
+				<a href="#contact">Contact</a>
+			</li>
+		</ul>
+	</div>
+	<br class="clear" />
+</div>
 {% include homepage %}
 {% include portfolio %}
 {% include blog %}
